@@ -86,8 +86,8 @@ def update_json():
 
     try:
 
-        # response = requests.get('http://locutus.dscloud.me:7878/station/9100013')  # Spittelmarkt
-        response = requests.get('http://locutus.dscloud.me:7878/station/9160523')  # Gotlindestr.
+        # response = requests.get('http://sickpi:3000/station/9100013')  # Spittelmarkt
+        response = requests.get('http://sickpi:3000/station/9160523')  # Gotlindestr.
 
         json_data = response.json()
 
