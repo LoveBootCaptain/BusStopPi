@@ -5,4 +5,4 @@ it uses [https://github.com/kr1sp1n/bvg-api](https://github.com/kr1sp1n/bvg-api)
 
 ## screenshot
 
-![BusStopPi](./docs/BusStopPi_01.jpg)
+![BusStopPi](src/docs/BusStopPi_01.jpg)
