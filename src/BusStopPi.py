@@ -14,8 +14,15 @@ locale.setlocale(locale.LC_ALL, locale.getdefaultlocale())
 
 pygame.init()
 
-DISPLAY_WIDTH = 800
-DISPLAY_HEIGHT = 480
+DISPLAY = pygame.display.Info()
+# print(DISPLAY)
+
+# DISPLAY_WIDTH = 1920
+# DISPLAY_HEIGHT = 1080
+
+DISPLAY_WIDTH = DISPLAY.current_w
+DISPLAY_HEIGHT = DISPLAY.current_h
+
 
 TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 # TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT), pygame.FULLSCREEN)
