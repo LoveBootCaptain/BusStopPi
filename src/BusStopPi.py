@@ -22,8 +22,9 @@ TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 
 pygame.mouse.set_visible(False)
 
+BLACK = (0, 0, 0)
+DARK_GRAY = (10, 10, 10)
 GRAY = (43, 43, 43)
-BLACK = (10, 10, 10)
 WHITE = (255, 255, 255)
 
 RED = (231, 76, 60)
