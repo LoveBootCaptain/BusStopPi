@@ -20,6 +20,7 @@ DISPLAY_HEIGHT = 480
 TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 # TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT), pygame.FULLSCREEN)
 
+
 pygame.mouse.set_visible(False)
 
 BLACK = (0, 0, 0)
