@@ -360,7 +360,7 @@ def update_data():
 
 def draw_to_tft():
 
-    TFT.fill(BLACK)
+    TFT.fill(DARK_GRAY)
 
     draw_text_layer()
 
