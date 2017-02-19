@@ -42,7 +42,7 @@ ORANGE = (238, 153, 18)
 
 pygame.display.set_caption('BusStopPi')
 
-PATH = sys.path[1] + '/src'
+PATH = sys.path[0] + '/'
 
 print(PATH + '/font/Roboto-Light.ttf')
 
