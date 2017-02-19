@@ -23,8 +23,8 @@ DISPLAY_HEIGHT = 480
 # DISPLAY_WIDTH = DISPLAY.current_w
 # DISPLAY_HEIGHT = DISPLAY.current_h
 
-# TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
-TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT), pygame.FULLSCREEN)
+TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
+# TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT), pygame.FULLSCREEN)
 
 pygame.mouse.set_visible(False)
 
@@ -42,7 +42,7 @@ ORANGE = (238, 153, 18)
 
 pygame.display.set_caption('BusStopPi')
 
-PATH = sys.path[0] + '/'
+PATH = sys.path[1] + '/src'
 
 print(PATH + '/font/Roboto-Light.ttf')
 
